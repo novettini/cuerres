@@ -116,7 +116,7 @@ section {
     color: black;
     margin-top: 1%;
     margin-bottom: 2%
-   }
+}
 
 #form {
     margin-right: 100%;
@@ -126,7 +126,7 @@ section {
 
 .fondo {
     background-color: aliceblue;
-    
+
 }
 
 #form {
@@ -160,6 +160,6 @@ option {
     margin-right: auto;
 }
 
-textarea{
+textarea {
     resize: none;
 }
