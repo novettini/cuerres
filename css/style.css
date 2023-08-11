@@ -122,21 +122,18 @@ section {
     margin-right: 100%;
 }
 
-#submit {
-    background-color: #74A1D1;
-    color: white;
-    border-radius: 26%;
-}
+
 
 .fondo {
     background-color: aliceblue;
+    
 }
 
 #form {
     width: 100%;
     background: #feffff;
-    background: -webkit-linear-gradient(to top, #7c9185, #414647, #1b201fa8);
-    background: linear-gradient(to top, #7c9185, #414647, #1b201fa8);
+    background: -webkit-linear-gradient(to top, #7c9185a5, #414647, #1b201fa8);
+    background: linear-gradient(to top, #7c91855c, #414647, #1b201fa8);
 
 }
 
@@ -153,8 +150,9 @@ option {
     height: 70px;
     margin-left: auto;
     margin-right: auto;
-    color: white;
+    color: black;
     margin-bottom: 3%;
+    border-radius: 50%;
 }
 
 #fdn {
@@ -162,3 +160,6 @@ option {
     margin-right: auto;
 }
 
+textarea{
+    resize: none;
+}
