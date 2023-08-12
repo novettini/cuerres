@@ -131,10 +131,7 @@ section {
 
 #form {
     width: 100%;
-    background: #feffff;
-    background: -webkit-linear-gradient(to top, #7c9185a5, #414647, #1b201fa8);
-    background: linear-gradient(to top, #7c91855c, #414647, #1b201fa8);
-
+   
 }
 
 select {
