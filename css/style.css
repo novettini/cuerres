@@ -70,7 +70,7 @@ h5 p {
 li,
 .navbar,
 .color {
-    /* background-color: white !important; */
+    background-color: aliceblue    !important;
     font-family: "noni";
     font-size: large;
 }
@@ -162,4 +162,8 @@ option {
 
 textarea {
     resize: none;
+}
+
+#logo-inicio{
+    max-width: 40%;
 }
