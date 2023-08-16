@@ -176,11 +176,11 @@
   --bs-form-invalid-border-color: #ea868f;
 }
 
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
@@ -434,9 +434,9 @@ th {
   border-width: 0;
 }
 
-label {
+/* label {
   display: inline-block;
-}
+} */
 
 button {
   border-radius: 0;

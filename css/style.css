@@ -120,6 +120,8 @@ section {
 
 #form {
     margin-right: 100%;
+    display: grid;
+
 }
 
 
@@ -131,6 +133,7 @@ section {
 
 #form {
     width: 100%;
+    display: inline;
    
 }
 
@@ -167,4 +170,8 @@ textarea {
 
 footer{
     color:white
+}
+
+#agregados{
+    display: table-caption;
 }
