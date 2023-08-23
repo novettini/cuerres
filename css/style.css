@@ -175,3 +175,5 @@ footer{
 #agregados{
     display: table-caption;
 }
+li{
+    display:contents;}
