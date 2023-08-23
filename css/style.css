@@ -177,3 +177,6 @@ footer{
 }
 .lista{
     display:contents;}
+a{
+padding-left:0;
+padding-right:0;}
