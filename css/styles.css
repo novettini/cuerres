@@ -166,3 +166,13 @@ background-color: rgb(186, 255, 231);}
     margin-right: 5%;
 }
 }
+@media (max-height: 700px){
+.historia{
+    margin-top:30%;
+}
+    }
+@media (max-height: 4000px){
+    .historia{
+        margin-top:50%;
+        }
+            }
