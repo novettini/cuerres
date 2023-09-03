@@ -28,161 +28,85 @@ audio_fa_sostenido = document.querySelector("#tonoFaSostenido")
 audio_sol_sostenido = document.querySelector("#tonoSolSostenido")
 audio_la_sostenido = document.querySelector("#tonoLaSostenido")
 audio_do_sostenido2 = document.querySelector("#tonoDoSostenido2")
-
-x=1 
 fondo= document.querySelector("#fondo")
 
-
-
-// botonDark.addEventListener("click", () => {
-//     botonDark.classList.toggle("btn-dark")
-//     tablita.classList.toggle("table-dark")
-//     document.body.classList.toggle("bg-dark")
-// })
 
 window.onload=function(){
 
 boton_do.addEventListener("click", () => {
-    if (audio_do.paused){
         audio_do.load()
         audio_do.play()
-    }else{
-        audio_do.pause()
-    }
-        
-})
+   })
 boton_re.addEventListener("click", () => {
-    if (audio_re.paused){
         audio_re.load()
         audio_re.play()
-    }else{
-        audio_re.pause()
-    }
-        
 })
 boton_mi.addEventListener("click", () => {
-    if (audio_mi.paused){
         audio_mi.load()
         audio_mi.play()
-    }else{
-        audio_mi.pause()
-    }
-        
 })
 boton_fa.addEventListener("click", () => {
-    if (audio_fa.paused){
         audio_fa.load()
         audio_fa.play()
-    }else{
-        audio_fa.pause()
-    }
-        
-})
+ })
 boton_sol.addEventListener("click", () => {
-    if (audio_sol.paused){
         audio_sol.load()
         audio_sol.play()
-    }else{
-        audio_do.pause()
-    }
-        
+
 })
 boton_la.addEventListener("click", () => {
-    if (audio_la.paused){
         audio_la.load()
         audio_la.play()
-    }else{ 
-        audio_la.pause()
-    }
-        
+ 
 })
 boton_si.addEventListener("click", () => {
-    if (audio_si.paused){
         audio_si.load()
         audio_si.play()
-    }else{
-        audio_si.pause()
-    }
-        
+ 
 })
 boton_do2.addEventListener("click", () => {
-    if (audio_do2.paused){
         audio_do2.load()
         audio_do2.play()
-    }else{
-        audio_do2.pause()
-    }
-        
 })
 boton_re2.addEventListener("click", () => {
-    if (audio_re2.paused){
         audio_re2.load()
         audio_re2.play()
-    }else{
-        audio_re2.pause()
-    }
-        
 })
 boton_do_sostenido.addEventListener("click", () => {
-    if (audio_do_sostenido.paused){
         audio_do_sostenido.load()
         audio_do_sostenido.play()
-    }else{
-        audio_do_sostenido.pause()
-    }
-        
+   
 })
 boton_re_sostenido.addEventListener("click", () => {
-    if (audio_re_sostenido.paused){
         audio_re_sostenido.load()
         audio_re_sostenido.play()
-    }else{
-        audio_re_sostenido.pause()
-    }
+      
         
 })
 boton_fa_sostenido.addEventListener("click", () => {
-    if (audio_fa_sostenido.paused){
         audio_fa_sostenido.load()
         audio_fa_sostenido.play()
-    }else{
-        audio_fa_sostenido.pause()
-    }
+   
+    
         
 })
 boton_sol_sostenido.addEventListener("click", () => {
-    if (audio_sol_sostenido.paused){
         audio_sol_sostenido.load()
         audio_sol_sostenido.play()
-    }else{
-        audio_sol_sostenido.pause()
-    }
+    
         
 })
 boton_la_sostenido.addEventListener("click", () => {
-    if (audio_la_sostenido.paused){
         audio_la_sostenido.load()
         audio_la_sostenido.play()
-    }else{
-        audio_la_sostenido.pause()
-    }
+   
         
 })
 boton_do_sostenido2.addEventListener("click", () => {
-    if (audio_do_sostenido2.paused){
         audio_do_sostenido2.load()
         audio_do_sostenido2.play()
-    }else{
-        audio_do_sostenido2.pause()
-    }
+   
 })
-
-
-
-
-// botonPalabra.addEventListener("click", () => {
-  
-// })
 boton_do.addEventListener("click", () => {
     fondo.className ='do'
 
