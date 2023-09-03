@@ -170,9 +170,15 @@ background-color: rgb(186, 255, 231);}
 .historia{
     margin-top:30%;
 }
+.plastico{
+    background-color: rgb(108, 104, 104);width: 95%; position: absolute;top: 16%; height: 40%; margin-left: 3%;border-radius: 2%;
+}
     }
-@media (max-height: 4000px){
+@media (max-height: 400px){
     .historia{
         margin-top:50%;
+        }
+        .plastico{
+            background-color: rgb(108, 104, 104);width: 95%; position: absolute;top: 16%; height: 80%; margin-left: 3%;border-radius: 2%;
         }
             }
